@@ -1,3 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PaddleAD"
+version = "0.0.1"
+authors = [
+  { name="Wang Xin", email="xinwang614@gmail.com" },
+]
+description = "Anomaly detection toolkit based on PaddlePaddle."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GreatV/PaddleAnomalyDetection"
+"Bug Tracker" = "https://github.com/GreatV/PaddleAnomalyDetection/issues"
+
 [tool.ruff]
 # Enable the pycodestyle (`E`) and Pyflakes (`F`) rules by default.
 # Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
