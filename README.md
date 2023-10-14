@@ -1,3 +1,3 @@
 # PaddleAD
 
-Anomaly detection toolkit based on PaddlePaddle.
+**A**nomaly **D**etection toolkit based on **Paddle**Paddle.
